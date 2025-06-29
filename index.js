@@ -12,11 +12,7 @@ while (true) {
   let reqData = [];
   let timer = 0;
 
-  const browser = await puppeteer.launch({
-    headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    defaultViewport: null,
-  });
+  const browser = await puppeteer.launch();
 
   try {
     const page = await browser.newPage();
