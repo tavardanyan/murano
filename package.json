@@ -1,20 +1,17 @@
 {
   "name": "vfs",
   "version": "1.0.0",
-  "main": "5.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node 5.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "puppeteer": "^24.10.0",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-angular": "^3.2.4",
-    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "user-agents": "^1.1.567"
   }
 }
